@@ -6,8 +6,9 @@
 # switch_it_up(3) -> 'Three'
 # switch_it_up(10000) -> None
 # Использовать условный оператор if-elif-else нельзя! 
-cell=input("Введите число от 0 до 9:")
-cell_number=int(cell)   
+def switch_it_up(number):return number
+number=input("Введите число от 0 до 9:")
+number=int(number) 
  switch_it_up = {
     0: 'zero',
     1: 'one',
@@ -21,5 +22,4 @@ cell_number=int(cell)
     9: 'nine'
 
 }
-
-print('Введенное число:',switch_it_up.get(cell_number))
+print('Введенное число:',switch_it_up.get(number))
