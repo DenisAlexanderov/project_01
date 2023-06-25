@@ -62,5 +62,5 @@ overflow = myMat.fill_matrix([i for i in range(25)])
 Size=myMat.__repr__
 print("Размер матрицы строки,колонки:",Size)
 print(myMat)
-Errors =  myMat.add_value((-1,3,500), (0,0,3),(51,5, 7), (1, 2, 667), [3,4,676], (1), (1,"a", 1), (1,1, "£"))
+Errors =  myMat.add_value((-1,3,500), (0,0,3),(51,5, 7), (1, 2, 667), [3,4,676], (1), (1,"None", 1), (1,1, "None"))
 print(myMat)
